@@ -1,3 +1,5 @@
+[![LMS png](./assets/genednet.png?raw=true "Google Sheets")](https://youtu.be/kw1hZc_Otgc)
+
 # Overview
 This website no longer exists. However, I have uploaded the code for others to view or use.
 
@@ -15,5 +17,3 @@ I programmed this Learning Management System with HTML, CSS, PHP, and SQL. It wa
 * On the backend, administrators could review all submitted assignments and results.
 * Administrators could drill down to specific data by filtering through assignments, grade levels, classrooms, and individual students.
 * Data could be downloaded via csv to analize or upload the results into a gradebook
-
-[![LMS png](./assets/genednet.png?raw=true "Google Sheets")](https://youtu.be/kw1hZc_Otgc)
