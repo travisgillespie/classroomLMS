@@ -1,0 +1,458 @@
+/* Site Colors:
+  #1A446C - blue grey
+  #689DC1 - light blue
+  #D4E6F4 - very light blue
+  #EEE4B9 - light tan
+  #8D0D19 - burgundy
+*/
+body, #main {
+	vertical-align:baseline; 
+	margin: 0; padding: 0; border: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; line-height: 15px;
+	background: rgba(57,55,55,0.93);
+	
+}
+#main {
+	vertical-align:baseline; 
+	margin: 0; padding: 0; border: 0;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	font-size: 13px; line-height: 15px;
+	background: ;
+	
+}
+/* basic page layout */
+#header { 
+	padding-top: 1px;
+	overflow: hidden;
+	padding-left: 50px;
+	background: #1A446C; color: #D4E6F4;
+
+	/* text-shadow: 10px 10px 5px hsla(120,90%,40%,.7); */
+    margin:0px auto;
+    z-index: 2;
+    position:fixed;
+	left:0px;
+	top:0px;
+	width:100%;
+
+
+}
+
+#headerTitle { 
+	width: 240px;
+	overflow: hidden;
+	float: left;
+	margin-top: -10px;
+}
+#loginForm{
+	float: right;
+	background: #1A446C; color: #D4E6F4;
+	/* text-shadow: 10px 10px 5px hsla(120,90%,40%,.7); */
+	width: 520px; 
+	}
+
+#mainNav {
+	background: #1A446C;
+	position: ;
+	
+
+	/* text-shadow: 8px 10px 4px hsla(120,90%,40%,.7); */
+	
+}
+
+/* page content */
+#content {
+   /* width:960px; */
+    width:1080px;
+    background: rgba(255, 255, 255, .3);
+    /*border: 1px solid #CCC;*/
+    height: 4000px;
+    margin: 20px auto;
+}
+#contentBackground {
+    /* width:960px; */
+    width:1080px;
+    background: ;
+    /*border: 1px solid #CCC;*/
+    height: 4000px;
+    margin: 20px auto;
+}
+
+.topBlock{
+	height: 120px;
+	overflow: hidden;
+	background: ;
+}
+.topBlockAssignments{
+	height: 190px;
+	overflow: hidden;
+	background: ;
+}
+.topBlockLogin{
+	height: 50px;
+	overflow: hidden;
+	background: ;
+}
+.topBlockResources{
+	height: 225fpx;
+	overflow: hidden;
+	background: ;
+}
+.page {
+	overflow: hidden;
+	padding-left: 50px;
+	background: ;
+	color: #000000;
+
+	background: ;
+}
+#miniDisplay{
+	float: left;
+	margin-top: -20px; 
+	margin-left: -40px;
+	background: ;
+	color: #000000;
+	background: ;
+	width: 350px;
+	height: 800px;
+}
+
+#miniDisplayCourseFront{
+	float: left;
+	margin-top: -20px; 
+	margin-left: -40px;
+	width: 350px;
+	height: 800px;
+	overflow: hidden ;
+}
+
+#miniDisplayCourse{
+	margin-left: ;
+	width: 350px;
+	height: 800px;
+	visibility: ;
+}
+
+#miniDisplayStats{
+	float: left;
+	margin-top: -20px; 
+	margin-left: ;
+	background: rgba(255, 255, 255, .3);
+	width:980px;
+	height: 225px;
+    background: ;
+    overflow: auto;    
+}
+
+#miniDisplayAdmin{
+	float: left;
+	margin-top: -20px; 
+	margin-left: ;
+	background: rgba(255, 255, 255, .3);
+	width:980px;
+	height: 125px;
+    background: ;
+    overflow: auto;    
+}
+
+
+
+#miniDisplayVideos{
+	float: left;
+	margin-top: -20px; 
+	margin-left: -40px;
+	background: ;
+	color: #000000;
+	background: ;
+	width: 350px;
+	height: 800px;
+	
+
+}
+
+#miniDisplayLinks, #miniDisplayResources, #miniDisplayXcode{
+	float: left;
+	margin-top: -20px; 
+	margin-left: ;
+	background: rgba(255, 255, 255, .3);
+	width:980px;
+	height: 98%;
+    background: ;
+    overflow: auto;    
+}
+
+#miniDisplayAboutMe{
+	float: left;
+	margin-top: -29px; 
+	margin-left: 30px;
+	background: ;
+	color: #000000;
+	background: ;
+	width: 350px;
+}
+
+#mainDisplay{
+	margin-top: -29px; 
+	margin-left: -70px;
+}
+
+#mainDisplayCalendar{
+	margin-top:	-50px; 
+	margin-left: -70px;
+	float: right;
+}
+
+#mainDisplayStats, #mainDisplayAdmin{
+	float: left;
+	margin-top: 10px; 
+	margin-left: ;
+	background: rgba(255, 255, 255, .3);
+	width:980px;
+	height: 1000px;
+    background: ;
+    overflow: auto;     
+}
+#statsLinks{
+	float: left;
+	margin-top: 10px; 
+	margin-left: ;
+	width:980px;
+	height: 4000px;
+    overflow: auto;     
+}
+
+#mainDisplayAboutMe{
+	margin-top:	-29px; 
+	margin-right: 200px;
+	float: right;
+}
+
+#mainDisplayVideos, #mainDisplayXcode{
+	margin-top:	-29px; 
+	margin-right: 300px;
+	float: right;
+}
+#mainDisplay a{
+	font-size: .8em;
+	color: #000000;
+	margin-left: 0px;
+}
+
+
+
+#mainDisplay #videoPlayer{
+	float: right; 
+	margin-right: 75px;
+	.vjs-default-skin { color: #30fa00; }
+	.vjs-default-skin .vjs-play-progress,
+	.vjs-default-skin .vjs-volume-level { background-color: #1ea4ee }
+
+}
+#contactInfo{
+	margin-top: -40px;
+	margin-left: -30px;
+	float: left;
+	width: 392px;
+	color: black;
+}
+#classFiles, #classVideos{
+	padding-left: ;
+	background: #1A446C; 
+	color: #000000;
+	background: transparent;
+	height: 400px;
+	width: 500px;
+	overflow: auto;
+	
+}
+#footer { 
+	height: 17px;
+	width: 100%;
+	background:#1A446C; 
+	color: #D4E6F4;
+    text-align: center; 
+    
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	width:100%;
+}
+
+/* Forms */
+
+/* Calendars */
+#weeklyCalendar {
+	padding-right: 5px; 
+	float: left;
+	color: #D4E6F4; 
+	background: transparent;
+	width: 295px;
+	height: 400px;
+	padding-bottom: 10px;
+} 
+#classCalendar{
+	padding-right: 50px; 
+	float: right;
+	color: #D4E6F4; 
+	background: transparent;
+	width: 600px;
+	height: 400px;
+	padding-bottom: 10px;
+}
+
+/* header */
+#header h1 { padding: 1em; margin: 0;}
+
+/*nav styles*/
+#navigation{
+	float: left;
+	overflow: hidden;
+	color: #D4E6F4;
+	
+
+}
+#navigation li {
+	float: left;
+	background: #1A446C;
+	list-style: none;
+	text-align: center;
+}
+#navigation a {
+	text-transform: uppercase; 
+	color: #ffffff;
+	background-color: #333333;
+	font-size: 1em;
+	text-align: center;
+	line-height: 36px;
+	border: none;
+	border-radius: 20px;
+
+}
+#navigation a:hover { background-color: #666666; }
+
+
+
+/* links */
+a, a:visited{
+	background: red;
+}
+a {	
+	margin-left: 10px;
+	text-decoration: none;
+	padding: 5px 10px;
+	margin-bottom: 2px;
+	text-transform: capitalize; 
+	 /* try #689DC1 or #1A446C */
+	color: #ffffff;
+	font-size: .8em;
+	text-align: center;
+	line-height: 36px;
+	border: none;
+	border-radius: 20px;
+}
+a:visited{
+	color: black;
+	background: #689DC1;
+}
+a:hover{
+background: #D4E6F4;
+	color: #1c6dd6;
+}
+a:active{
+	color: #1c6dd6;
+	background: hotpink;
+}
+
+#formFiles{
+	margin-top: 10px;
+	float: right; 
+	margin-right: 150px;
+}
+/*////////// NEXT SECTION TO PLAY WITH ///////////// */
+
+ 
+ul.menuBar { 
+	margin: 1em; padding-left: 0; list-style: none; font-weight: normal;
+}
+ul.page { padding-left: 2em; list-style: none; font-weight: normal; background: transparent; display: block;}
+
+#selected { font-weight: bold; }
+.selected { font-weight: bold; }
+
+/* Contact Info */
+label.email a{
+	border: none;
+	background-color: white;
+	background: #1A446C; 
+	color: #D4E6F4;	
+}
+label.email a:hover{
+	border: none;
+	color: red;
+}
+
+/* Page Content */
+/*  ///////////////////////////////////////////////////////////////////////////////////////////////////
+#main { 
+	height: 600px; width: 100%; 
+	margin: 0; padding: 0; 
+	background: transparent;
+}
+ /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* Page Content */
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////
+#page h2 { color: #8D0D19; margin-top: 1em;}
+#page h3 { color: #8D0D19; }
+.content {width: 200;
+	
+}
+.view-content {
+	margin: 1em; padding: 1em; border: 1px sod #999;
+}
+ /////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+/* change these colors */
+div.message { 
+	color: red;
+	border: 2px solid #8D0D19;
+	padding: 1em;
+	font-size: 11px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	float: left;
+	background: #1A446C; 
+	text-shadow: none;
+	width: 265px;
+	float: left;
+	margin-top: -2em;
+	border-radius: 20px;	
+}
+
+
+/* errors */
+div.message, .error {
+	color: #8D0D19; 
+	border: 2px solid #8D0D19;
+	padding: 1em;
+	font-size: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif; 
+	float: left;
+	background: #1A446C; color: #D4E6F4;
+	text-shadow: none;
+	width: 265px;
+	margin-right: 1em;
+	margin-top: -3.5em;
+	margin-bottom: .5em;
+	border-radius: 20px;
+}
+.loginError {
+	color: red;
+	text-shadow: none;	 
+	font-size: 13px;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	/* text-shadow: 10px 10px 5px hsla(120,90%,40%,.7); */
+	
+}
+
+.error ul { padding-left: 2em; color: red;  }

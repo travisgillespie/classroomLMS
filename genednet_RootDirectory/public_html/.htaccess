@@ -1,0 +1,141 @@
+RewriteEngine on
+
+RewriteOptions inherit
+
+<IfModule mod_suphp.c>
+ suPHP_ConfigPath /home/tgilles3/
+ <Files php.ini>
+   order allow,deny
+   deny from all
+ </Files>
+</IfModule>
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^/?$ "http\:\/\/www\.genednet\.com\/gen_ed\/public\/index\.php\?menuBar\=1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/$ "http\:\/\/www\.genednet\.com\/gen_ed\/public\/index\.php\?menuBar\=1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^gen_ed\/public\/$ "http\:\/\/www\.genednet\.com\/gen_ed\/public\/index\.php\?menuBar\=1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^.*$
+RewriteRule ^gen_ed\/private\/$ "http\:\/\/www\.genednet\.com\/gen_ed\/public\/index\.php\?menuBar\=1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/includes\/$ "http\:\/\/www\.genednet\.com\/gen_ed\/public\/index\.php\?menuBar\=1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^images\/?$ "http\:\/\/www\.genednet\.com\/gen_ed\/public\/index\.php\?menuBar\=1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^images\/slideshow\/$ "http\:\/\/www\.genednet\.com\/gen_ed\/public\/index\.php\?menuBar\=1" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/includes\/db_connection\.php$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/private\/uploadFiles\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/private\/uploadVideos\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/includes\/layouts\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^www\.genednet\.com\/gen_ed\/public\/images\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/stylesheets\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/data1\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/images\/aboutMe$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/images\/mainPage$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/data1$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/data1\/images\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/data1\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/data1\/tooltips\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/engine1\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/images\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/images\/mainPage$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/images\/mainPage\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^www\.genednet\.com\/gen_ed\/public\/images\/slider$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/images\/slider\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/images\/slideshow$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/images\/aboutMe$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/images\/aboutMe\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/stylesheets$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_HOST} ^genednet\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.genednet\.com$
+RewriteRule ^gen_ed\/public\/stylesheets\/$ "http\:\/\/www\.genednet\.com\/" [R=301,L]
+
+RewriteCond %{HTTP_REFERER} !^http://genednet.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://genednet.com$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.genednet.com/.*$      [NC]
+RewriteCond %{HTTP_REFERER} !^http://www.genednet.com$      [NC]
+RewriteRule .*\.(jpg|jpeg|gif|png|bmp|pdf)$ http://www.genednet.com [R,NC]
+
+ErrorDocument 404 /notfound.php
