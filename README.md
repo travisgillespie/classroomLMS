@@ -17,4 +17,4 @@ I programmed this Learning Management System with HTML, CSS, PHP, and SQL. It wa
 # Admin Site
 * On the backend, administrators could review all submitted assignment results.
 * Administrators could drill down to specific data by filtering through assignments, grade levels, classrooms, and individual students.
-* Data could be downloaded via csv file to analyze or upload the results into another grade book.
+* Data could be downloaded via csv file to further analyze the results or upload into another grade book.
