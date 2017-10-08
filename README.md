@@ -1,26 +1,19 @@
-# Note 10-7-17:
-I'm currently writing the README.md file. It will be up to date within a few days.
-
 # Overview
-This Learning Management System domain is depreciated. The code is availbe for view.
+This website no longer exists. However, I have uploaded the code for others to view or use.
 
-I programmed this site to make my job as a teacher easier. It is designed with HTML, CSS, PHP, and SQL.
+I programmed this Learning Management System with HTML, CSS, PHP, and SQL. It was created to make my job as a teach easier, but this site ended up doing much more than providing me immediate feedback. My students excelled. They learned to fix their mistakes, improve upon their skills, and most important failing doesn't mean give up. A few of the features the site had to offer are listed below.
+
+# Student Site
+* New students could create an account with a username and password.
+* Students had access to their grade level assignments.
+* Assignments could be submitted online.
+* Scores were immediately returned.
+* Students could resubmit assignments to fix mistakes.
+* Students could review previous attempts at any time.
+
+# Admin Site
+* On the backend, administrators could review all submitted assignments and results.
+* Administrators could drill down to specific data by filtering through assignments, grade levels, classrooms, and individual students.
+* Data could be downloaded via csv to analize or upload the results into a gradebook
 
 [![LMS png](./assets/genednet.png?raw=true "Google Sheets")](https://youtu.be/kw1hZc_Otgc)
-
-# Initial Setup
-# classroomLMS
-
-new students can create an account
-all students can access their account
-retreive the class inforamtion
-take assignemts
-retreive feedback immediately
-view all scores
-continue their learning and improve upon their skills by fixing mistakes
-students learn that failing doesn't mean give up
-
-on backend admin can review all scores
-filter through assignments, grade levels, classrooms, and individual students
-download resutls via csv filter for further analysis or upload into a gradebook
-# classroomLMS
