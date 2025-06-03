@@ -4,7 +4,7 @@
 This website no longer exists. However, I have uploaded the code for others to view or use.
 
 # Overview
-I programmed this Learning Management System with HTML, CSS, PHP, and SQL. It was created to make my job as a teach easier, but this site ended up doing much more than providing me immediate feedback. My students excelled. They learned to fix their mistakes, improve upon their skills, and most important they learned failing doesn't mean give up. A few of the features this site had to offer are listed below.
+I programmed this Learning Management System with HTML, CSS, PHP, and SQL. It was created to make my job as a teacher easier, but this site ended up doing much more than providing me immediate feedback. My students excelled. They learned to fix their mistakes, improve upon their skills, and most important they learned failing doesn't mean give up. A few of the features this site had to offer are listed below.
 
 # Student Site
 * New students could create an account with a username and password.
